@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="Description" content="" />
+<meta name="Keywords" content="" />
+<title>热爱是最大的天赋</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="wrap">
+	<!-- nav S -->
+	<!--#include file="inc/nav.html"-->
+	<!-- nav E -->
+	<!-- head S -->
+	<div class="head">
+		<div class="layout">
+            <div class="head-banner"><img src="images/nei-banner.jpg" height="485" width="1920" alt=""></div>
+        </div>
+	</div>
+    <!-- head E -->
+    <!-- content S -->
+    <div class="main">
+        <div class="pagenav">当前位置：<a href="javascript:;">首页</a>><a href="javascript:;">活动介绍</a></div>
+        <div class="subtitle">
+            <span class="line-l"></span>
+            <i class="spr i-activity"></i>
+            <em>活动介绍<strong>activity</strong></em>
+            <span class="line-r"></span>
+        </div>
+        <div class="activity">
+            <div class="activity-list">
+                <a href="javascript:;">
+                    <img src="http://via.placeholder.com/300x386" alt="">
+                    <p>大型巡展活动</p>
+                </a>
+                <a href="javascript:;">
+                    <img src="http://via.placeholder.com/300x386" alt="">
+                    <p>大型巡展活动大型巡展活动大型巡展活动大型巡展活动</p>
+                </a>
+                <a href="javascript:;">
+                    <img src="http://via.placeholder.com/300x386" alt="">
+                    <p>大型巡展活动</p>
+                </a>
+                <a href="javascript:;">
+                    <img src="http://via.placeholder.com/300x386" alt="">
+                    <p>大型巡展活动</p>
+                </a>
+                <a href="javascript:;">
+                    <img src="http://via.placeholder.com/300x386" alt="">
+                    <p>大型巡展活动</p>
+                </a>
+                <a href="javascript:;">
+                    <img src="http://via.placeholder.com/300x386" alt="">
+                    <p>大型巡展活动</p>
+                </a>
+                <a href="javascript:;">
+                    <img src="http://via.placeholder.com/300x386" alt="">
+                    <p>大型巡展活动</p>
+                </a>
+                <a href="javascript:;">
+                    <img src="http://via.placeholder.com/300x386" alt="">
+                    <p>大型巡展活动</p>
+                </a>
+            </div>
+            <!--分页-->
+            <div class="pagelist">
+                <div class="pager">
+                    <span class="pageinfo"> 共105 页 页次:12/105 页</span>
+                    <a href='#'>首页</a>
+                    <a href='#'>上一页</a>
+                    <a href="#">1</a>
+                    <span class="cpb">2</span>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">下一页</a>
+                    <a href='#'>尾页</a>
+                </div>
+            </div>
+            <div class=" clear"></div>
+            <!--/分页-->
+        </div>
+    </div>
+    <!-- content E -->
+    <!--#include file="inc/footer.html"-->
+</div>
+</body>
+</html>
+

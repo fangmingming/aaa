@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="Description" content="" />
+<meta name="Keywords" content="" />
+<title>热爱是最大的天赋</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="wrap">
+	<!-- nav S -->
+	<!--#include file="inc/nav.html"-->
+	<!-- nav E -->
+	<!-- head S -->
+	<div class="head">
+		<div class="layout">
+            <div class="head-banner"><img src="images/nei-banner.jpg" height="485" width="1920" alt=""></div>
+        </div>
+	</div>
+    <!-- head E -->
+    <!-- content S -->
+    <div class="main">
+        <div class="pagenav">当前位置：<a href="javascript:;">首页</a>><a href="javascript:;">活动介绍</a></div>
+        <div class="subtitle">
+            <span class="line-l"></span>
+            <i class="spr i-video"></i>
+            <em>视频推荐<strong>Video</strong></em>
+            <span class="line-r"></span>
+        </div>
+        <div class="activity">
+            <div class="activity-video">
+                <a href="javascript:;" class="btn_playpop" data-vidSrc="movie.mp4">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+                    <span class="spr"></span>
+                </a>
+                <a href="javascript:;" class="btn_playpop" data-vidSrc="movie.mp4">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+                    <span class="spr"></span>
+                </a>
+                <a href="javascript:;" class="btn_playpop" data-vidSrc="movie.mp4">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+                    <span class="spr"></span>
+                </a>
+                <a href="javascript:;" class="btn_playpop" data-vidSrc="movie.mp4">
+                    <img src="http://via.placeholder.com/300x300" alt="">
+                    <span class="spr"></span>
+                </a>
+            </div>
+            <!--分页-->
+            <div class="pagelist">
+                <div class="pager">
+                    <span class="pageinfo"> 共105 页 页次:12/105 页</span>
+                    <a href='#'>首页</a>
+                    <a href='#'>上一页</a>
+                    <a href="#">1</a>
+                    <span class="cpb">2</span>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">下一页</a>
+                    <a href='#'>尾页</a>
+                </div>
+            </div>
+            <div class=" clear"></div>
+            <!--/分页-->
+        </div>
+    </div>
+    <!-- content E -->
+    <!--#include file="inc/footer.html"-->
+</div>
+<div class="videopop" id="videopop">
+    <a href="javascript:showDialog.hide();" class="close">X</a>
+    <div class="vidplay">
+        <video width="800" height="450" id="vidplay"></video>
+    </div>
+</div>
+<script src="http://ossweb-img.qq.com/images/js/jquery/jquery-1.9.1.min.js"></script>
+<script src="//ossweb-img.qq.com/images/js/comm/showDialog.min.js"></script>
+<script>
+// 弹框
+function showDia(id) {
+    showDialog.show({
+        id: id, //需要弹出的id，如果是弹出页面上的div，则该选项为必选
+        bgcolor: "#000", //弹出“遮罩”的颜色，格式为"#FF6600"，可选，默认为"#fff"
+        opacity: 80 //弹出“遮罩”的透明度，格式为｛10-100｝，可选
+    });
+}
+var imgSrc = "images/";
+var _vidplay = document.getElementById('vidplay');
+$('body').on('click','.btn_playpop',function(){
+    showDia('videopop');
+    var _vid = $(this).attr('data-vidSrc');
+    _vid = imgSrc+_vid;
+    _vidplay.src = _vid;
+    _vidplay.play();
+}).on('click','.videopop .close',function(){
+    showDialog.hide();
+    _vidplay.pause();
+})
+</script>
+</body>
+</html>
+

@@ -1,0 +1,183 @@
+@charset "UTF-8";
+// h5单位换算
+@function rem($px) {
+    @if $px == 0 {
+        @return 0;
+    }
+    @if $px <=2 and $px > 0 {
+        @return 1px;
+    }
+    @else {
+        @return $px / ($px * 0 + 1) / 1 * 1px;
+    }
+}
+@function px($px) {
+    @return $px / ($px * 0 + 1) / 1 * 1px;
+}
+
+$img:"../images";
+
+//层级 z-index取值
+//普通元素0-100;
+//吸顶/吸底/floating
+$index_floating:190;
+
+//弹框pop 201- 300
+$index_pop:290;
+
+//loading/分享 301-400
+$index_share:390;
+
+//else 401-700
+$index_else:490;
+
+
+// @mixin 样式设置，可以设置参数@include 引入
+// 溢出 单行 多行 @include ell(2)
+@mixin ell($line:1){
+	overflow: hidden;
+	text-overflow: ellipsis;
+	@if( $line == 1 ){
+		white-space: nowrap;
+	}@else{
+		display: -webkit-box;
+	  	-webkit-box-orient: vertical;
+	  	-webkit-line-clamp: $line;
+	}
+}
+// 按钮
+// @include button(rem(200),rem(60),rem(8),#ff6600,rem(30),#fff);
+@mixin button( $w , $h , $radius , $bgc , $fontSize , $color ){
+	display: block;
+	width: $w;
+	height: $h;
+	border-radius: $radius;
+	background:$bgc;
+	font-size: $fontSize;
+	color: $color;
+	text-align: center;
+	line-height: $h;
+	margin:0 auto;
+}
+// 文字加渐变  @include textGradient(top,#000,#fff)
+@mixin textGradient($direction,$colorStart,$colorEnd){
+	background-image: -webkit-linear-gradient($direction,$colorStart,$colorEnd);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+// 背景渐变 @include bgGradient(top,#000,#fff)
+@mixin bgGradient($direction,$colorStart,$colorEnd){
+	background-image: -webkit-linear-gradient($direction,$colorStart,$colorEnd);
+}
+// 雪碧图背景定位
+// @include position(rem(200),rem(50),rem(-100),rem(-200));
+@mixin position($w,$h,$positionX,$positionY){
+	width: $w;
+	height: $h;
+	background-position:$positionX $positionY;
+}
+@mixin pos($positionX,$positionY){
+	background-position:$positionX $positionY;
+}
+// 图片引用 @include sprite("game_links.png",rem(750),rem(652))
+@mixin sprite($imgName,$sizeW,$sizeH){
+	background-image: url(#{$img}/#{$imgName});
+	background-size: $sizeW $sizeH;
+	background-repeat:no-repeat;
+}
+// 溢出滚动
+%scroll_putong{
+	-webkit-overflow-scrolling:touch;
+}
+@mixin scroll($w,$h,$bgc){
+	&::-webkit-scrollbar {
+	  width: $w;
+	  height: $h;
+	}
+	&::-webkit-scrollbar-button {
+	  width: 0;
+	  height: 0;
+	}
+	&::-webkit-scrollbar-corner {
+	  display: block;
+	}
+	&::-webkit-scrollbar-thumb {
+	  background-clip: padding-box;
+	  background-color: $bgc;
+	  border-radius: ($h/2);
+	}
+}
+
+// 占位符 % 使用@extend 引入 所有引用相同的占位符，编译后会联合写一个样式
+//文字描边 3*3种组合写全
+%text-shadow{text-shadow:0 1px 1px #de6412,0 0px 1px #de6412,0 -1px 1px #de6412,1px 1px 1px #de6412,1px 0px 1px #de6412,1px -1px 1px #de6412,-1px 1px 1px #de6412,-1px 0px 1px #de6412,-1px -1px 1px #de6412;}
+
+// 清除表单样式
+%inputclear{
+	border:none;
+	background:none;
+	border-radius: 0;
+}
+// 图片样式
+%imgBlock{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+// 继承元素样式 @extend 引入
+// @extend .c;继承class 为c的样式
+
+//pc端inline-block兼容处理 @extend %inlineBlock;
+// h5 inline-block @extend %inline;
+%inlineBlock{
+	display: inline-block;
+	*display:inline;
+	*zoom:1;
+	vertical-align: top;
+}
+%inline{
+	display: inline-block;
+	vertical-align: top;
+}
+// 定位上下左右居中
+%center{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform:translate3d(-50%,-50%,0);
+}
+// 定位上下居中
+%centerVertical{
+	position: absolute;
+	top: 50%;
+	transform:translate3d(0,-50%,0);
+}
+// 定位左右居中
+%centerheng{
+	position: absolute;
+	left: 50%;
+	transform:translate3d(-50%,0,0);
+}
+// 清除浮动
+%clear{
+	&:after{
+		display: block;
+		content: '';
+		width: 100%;
+		height: 0;
+		visibility: hidden;
+		clear: both;
+	}
+}
+
+// .line{
+// 	width: 100%;
+// 	height: rem(2);
+// 	background-image: -webkit-linear-gradient(left,rgba(85,153,183,0),rgba(85,153,183,1) 30%,rgba(85,153,183,1) 40%,rgba(85,153,183,0) 60%);
+// }
+// .lines{
+// 	width: rem(2);
+// 	height: 100%;
+// 	background-image: -webkit-linear-gradient(top,rgba(85,153,183,0),rgba(85,153,183,1) 30%,rgba(85,153,183,1) 40%,rgba(85,153,183,0) 60%);
+// }
+

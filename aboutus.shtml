@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="Description" content="" />
+<meta name="Keywords" content="" />
+<title>热爱是最大的天赋</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="wrap">
+	<!-- nav S -->
+	<!--#include file="inc/nav.html"-->
+	<!-- nav E -->
+	<!-- head S -->
+	<div class="head">
+		<div class="layout">
+            <div class="head-banner"><img src="images/nei-banner.jpg" height="485" width="1920" alt=""></div>
+        </div>
+	</div>
+    <!-- head E -->
+    <!-- content S -->
+    <div class="main">
+        <div class="pagenav">当前位置：<a href="javascript:;">首页</a>><a href="javascript:;">关于我们</a></div>
+        <div class="subtitle">
+            <span class="line-l"></span>
+            <i class="spr i-about"></i>
+            <em>关于我们<strong>about us</strong></em>
+            <span class="line-r"></span>
+        </div>
+        <div class="contactus">
+            <div class="side_right"><img src="http://via.placeholder.com/700x400" alt=""></div>
+            <div class="side_left">
+                <p class="contact-us">CONTACT  US</p>
+                <ul class="list">
+                    <li class="cont-01"><i class="spr s-addr"></i>地址：湖北省武汉市名族大道洪福添美16楼</li>
+                    <li class="cont-02"><i class="spr s-tel"></i>电话：+86-027-59750998 / 59750227</li>
+                    <li class="cont-03"><i class="spr s-num"></i>邮编：430068</li>
+                    <li class="cont-05"><i class="spr s-mail"></i>邮箱：hoss@mail.hbut.edu.cn</li>
+                </ul>
+            </div>
+            <div class="busRoad">
+                <p class="busTit"><i class="spr s-bus"></i>公交路线 / Bus lines</p>
+                <ul class="list">
+                    <li>1、民族大道上钱村站（362路、405路、538路、572路、583路、590路、626路、718路、810路、903路、913路）</li>
+                    <li>2、民族大道上钱村站（362路、405路、538路、572路、583路、590路、626路、718路、810路、903路、913路）</li>
+                    <li>1、民族大道上钱村站（362路、405路、538路、572路、583路、590路、626路、718路、810路、903路、913路）</li>
+                    <li>1、民族大道上钱村站（362路、405路、538路、572路、583路、590路、626路、718路、810路、903路、913路）</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- content E -->
+    <!--#include file="inc/footer.html"-->
+</div>
+</body>
+</html>
+<!-- http://via.placeholder.com/376x382 -->

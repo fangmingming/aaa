@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="Description" content="" />
+<meta name="Keywords" content="" />
+<title>热爱是最大的天赋</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="wrap">
+	<!-- nav S -->
+	<!--#include file="inc/nav.html"-->
+	<!-- nav E -->
+	<!-- head S -->
+	<div class="head">
+		<div class="layout">
+            <div class="head-banner"><img src="images/nei-banner.jpg" height="485" width="1920" alt=""></div>
+        </div>
+	</div>
+    <!-- head E -->
+    <!-- content S -->
+    <div class="main">
+        <div class="pagenav">当前位置：<a href="javascript:;">首页</a>><a href="javascript:;">关于我们</a></div>
+        <div class="subtitle">
+            <span class="line-l"></span>
+            <i class="spr i-about"></i>
+            <em>关于我们<strong>about us</strong></em>
+            <span class="line-r"></span>
+        </div>
+    </div>
+    <!-- content E -->
+    <!--#include file="inc/footer.html"-->
+</div>
+</body>
+</html>

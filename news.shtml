@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="Description" content="" />
+<meta name="Keywords" content="" />
+<title>热爱是最大的天赋</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="wrap">
+	<!-- nav S -->
+	<!--#include file="inc/nav.html"-->
+	<!-- nav E -->
+	<!-- head S -->
+	<div class="head">
+		<div class="layout">
+            <div class="head-banner"><img src="images/nei-banner.jpg" height="485" width="1920" alt=""></div>
+        </div>
+	</div>
+    <!-- head E -->
+    <!-- content S -->
+    <div class="main">
+        <div class="pagenav">当前位置：<a href="javascript:;">首页</a>><a href="javascript:;">关于我们</a></div>
+        <div class="subtitle">
+            <span class="line-l"></span>
+            <i class="spr i-jc"></i>
+            <em>JC动态<strong>JC dynamic</strong></em>
+            <span class="line-r"></span>
+        </div>
+        <div class="news">
+            <ul class="news-list">
+                <li>
+                    <a class="news-pic" href="#"><img src="http://via.placeholder.com/240x150" alt=""></a>
+                    <h3 class="news-tit">什么时间段适合练习瑜伽？都有什么效果？</h3>
+                    <p class="news-txt">清晨起床净齿净面后,做一场晨瑜伽,感恩太阳给我们带来光明,洁净一整夜积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,迎接新的一天。(适合练习时间15至30分钟,时间过长则会导致身体过于疲惫)阳光明媚的上午,做一场瑜伽,可以感恩太阳给我们带来光明,洁净一整积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,感恩太阳给我们带来光明,洁净一整夜积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,迎接新的一天。迎接新的一天.清晨起床净齿净面后,做一场晨瑜伽,感恩太阳给我们带来光明,洁净一整夜积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,迎接新的一天。(适合练习时间15至30分钟,时间过长则会导致身体过于疲惫)阳光明媚的上午,做一场瑜伽,可以感恩太阳给我们带来光明,洁净一整积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,感恩太阳给我们带来光明,洁净一整夜积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,迎接新的一天。迎接新的一天.</p>
+                    <p class="news-link"><a href="javascript:;" class="spr"></a></p>
+                </li>
+                <li>
+                    <a class="news-pic" href="#"><img src="http://via.placeholder.com/240x150" alt=""></a>
+                    <h3 class="news-tit">什么时间段适合练习瑜伽？都有什么效果？</h3>
+                    <p class="news-txt">清晨起床净齿净面后,做一场晨瑜伽,感恩太阳给我们带来光明,洁净一整夜积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,迎接新的一天。(适合练习时间15至30分钟,时间过长则会导致身体过于疲惫)阳光明媚的上午,做一场瑜伽,可以感恩太阳给我们带来光明,洁净一整积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,感恩太阳给我们带来光明,洁净一整夜积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,迎接新的一天。迎接新的一天.</p>
+                    <p class="news-link"><a href="javascript:;" class="spr"></a></p>
+                </li>
+                <li>
+                    <a class="news-pic" href="#"><img src="http://via.placeholder.com/240x150" alt=""></a>
+                    <h3 class="news-tit">什么时间段适合练习瑜伽？都有什么效果？</h3>
+                    <p class="news-txt">清晨起床净齿净面后,做一场晨瑜伽,感恩太阳给我们带来光明,洁净一整夜积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,迎接新的一天。(适合练习时间15至30分钟,时间过长则会导致身体过于疲惫)阳光明媚的上午,做一场瑜伽,可以感恩太阳给我们带来光明,洁净一整积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,感恩太阳给我们带来光明,洁净一整夜积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,迎接新的一天。迎接新的一天.</p>
+                    <p class="news-link"><a href="javascript:;" class="spr"></a></p>
+                </li>
+                <li>
+                    <a class="news-pic" href="#"><img src="http://via.placeholder.com/240x150" alt=""></a>
+                    <h3 class="news-tit">什么时间段适合练习瑜伽？都有什么效果？</h3>
+                    <p class="news-txt">清晨起床净齿净面后,做一场晨瑜伽,感恩太阳给我们带来光明,洁净一整夜积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,迎接新的一天。(适合练习时间15至30分钟,时间过长则会导致身体过于疲惫)阳光明媚的上午,做一场瑜伽,可以感恩太阳给我们带来光明,洁净一整积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,感恩太阳给我们带来光明,洁净一整夜积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,迎接新的一天。迎接新的一天.</p>
+                    <p class="news-link"><a href="javascript:;" class="spr"></a></p>
+                </li>
+                <li>
+                    <a class="news-pic" href="#"><img src="http://via.placeholder.com/240x150" alt=""></a>
+                    <h3 class="news-tit">什么时间段适合练习瑜伽？都有什么效果？</h3>
+                    <p class="news-txt">清晨起床净齿净面后,做一场晨瑜伽,感恩太阳给我们带来光明,洁净一整夜积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,迎接新的一天。(适合练习时间15至30分钟,时间过长则会导致身体过于疲惫)阳光明媚的上午,做一场瑜伽,可以感恩太阳给我们带来光明,洁净一整积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,感恩太阳给我们带来光明,洁净一整夜积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,迎接新的一天。迎接新的一天.</p>
+                    <p class="news-link"><a href="javascript:;" class="spr"></a></p>
+                </li>
+            </ul>
+            <!--分页-->
+            <div class="pagelist">
+                <div class="pager">
+                    <span class="pageinfo"> 共105 页 页次:12/105 页</span>
+                    <a href='#'>首页</a>
+                    <a href='#'>上一页</a>
+                    <a href="#">1</a>
+                    <span class="cpb">2</span>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">下一页</a>
+                    <a href='#'>尾页</a>
+                </div>
+            </div>
+            <div class=" clear"></div>
+            <!--/分页-->
+        </div>
+    </div>
+    <!-- content E -->
+    <!--#include file="inc/footer.html"-->
+</div>
+</body>
+</html>

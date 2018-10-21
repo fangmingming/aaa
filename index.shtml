@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="Description" content="" />
+<meta name="Keywords" content="" />
+<title>热爱是最大的天赋</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="wrap">
+	<!-- nav S -->
+	<!--#include file="inc/nav.html"-->
+	<!-- nav E -->
+	<!-- head S -->
+	<div class="head">
+		<div class="contaier">
+			<div class="box">
+				<ul class="list" id="head-list">
+					<li><img src="images/banner-pic1.jpg" height="854" width="1920"></li>
+					<li><img src="images/banner-pic2.jpg" height="854" width="1920"></li>
+				</ul>
+			</div>
+			<ul class="bot-point" id="head-bot-point">
+				<li class="active"></li>
+				<li></li>
+			</ul>
+			<div class="slogan"><img src="images/slogan.png" height="354" width="752" alt=""></div>
+		</div>
+	</div>
+    <!-- head E -->
+    <!-- content S -->
+    <div class="content1">
+    	<div class="layout">
+    		<div class="jc-dynamic fl">
+    			<div class="title">
+    				<p class="title-left">
+    					<i class="spr i-jc"></i>
+    					<span>JC动态</span>
+    					<em>JC dynamic</em>
+    				</p>
+    				<a href="javascript:;" class="spr btn-more" title="查看更多">查看更多</a>
+    			</div>
+    			<div class="dynamic-top">
+    				<a href="javascript:;" class="dynamic-top-pic"><img src="images/dynamic-pic.jpg" height="130" width="196" alt=""></a>
+    				<h3 class="dynamic-top-title"><a href="javascript:;">什么时间段适合练习瑜伽？都有什么效果？</a></h3>
+    				<p class="dynamic-top-txt">清晨起床净齿净面后,做一场晨瑜伽,感恩太阳给我们带来光明,洁净一整夜积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,迎接新的一天。(适合练习时间15至30分钟,时间过长则会导致身体过于疲惫)阳光明媚的上午,做一场瑜伽,可以清晨起床净齿净面后,做一场晨瑜伽,感恩太阳给我们带来光明,洁净一整夜积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,迎接新的一天。(适合练习时间15至30分钟,时间过长则会导致身体过于疲惫)阳光明媚的上午,做一场瑜伽,可以</p>
+    			</div>
+    			<ul class="dynamic-list">
+    				<li>
+    					<i></i>
+    					<a href="javascript:;">德国伍伯塔尔师生代表团来我校交流访问</a>
+    					<span>2014/12/03</span>
+    				</li>
+    				<li>
+    					<i></i>
+    					<a href="javascript:;">德国伍伯塔尔师生代表团来我校交流访问德国伍伯塔尔师生代表团来我校交流访问德国伍伯塔尔师生代表团来我校交流访问德国伍伯塔尔师生代表团来我校交流访问</a>
+    					<span>2014/12/03</span>
+    				</li>
+    				<li>
+    					<i></i>
+    					<a href="javascript:;">德国伍伯塔尔师生代表团来我校交流访问</a>
+    					<span>2014/12/03</span>
+    				</li>
+    				<li>
+    					<i></i>
+    					<a href="javascript:;">德国伍伯塔尔师生代表团来我校交流访问</a>
+    					<span>2014/12/03</span>
+    				</li>
+    				<li>
+    					<i></i>
+    					<a href="javascript:;">德国伍伯塔尔师生代表团来我校交流访问</a>
+    					<span>2014/12/03</span>
+    				</li>
+    				<li>
+    					<i></i>
+    					<a href="javascript:;">德国伍伯塔尔师生代表团来我校交流访问</a>
+    					<span>2014/12/03</span>
+    				</li>
+    			</ul>
+    		</div>
+    		<div class="video-recommendation fr">
+    			<div class="title">
+    				<p class="title-left">
+    					<i class="spr i-video"></i>
+    					<span>视频推荐</span>
+    					<em>Video recommendation</em>
+    				</p>
+    				<a href="javascript:;" class="spr btn-more" title="查看更多">查看更多</a>
+    			</div>
+    			<div class="video-list">
+                    <img src="images/dynamic-pic.jpg" alt="">
+    				<a href="javascript:;" class="spr btn_playpop" data-vidSrc="movie.mp4"></a>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <div class="content2">
+    	<div class="layout">
+    		<div class="subtitle">
+    			<span class="line-l"></span>
+    			<i class="spr i-activity"></i>
+    			<em>活动介绍<strong>activity</strong></em>
+    			<span class="line-r"></span>
+    		</div>
+    		<div class="contaier">
+				<div class="box">
+					<ul class="list" id="activity-list">
+						<li><a href="javascript:;"><img src="http://via.placeholder.com/275x385" height="385" width="275"><p>大型巡展活动</p></a></li>
+						<li><a href="javascript:;"><img src="http://via.placeholder.com/275x385" height="385" width="275"><p>大型巡展活动</p></a></li>
+						<li><a href="javascript:;"><img src="http://via.placeholder.com/275x385" height="385" width="275"><p>大型巡展活动</p></a></li>
+						<li><a href="javascript:;"><img src="http://via.placeholder.com/275x385" height="385" width="275"><p>大型巡展活动</p></a></li>
+						<li><a href="javascript:;"><img src="http://via.placeholder.com/275x385" height="385" width="275"><p>大型巡展活动</p></a></li>
+					</ul>
+				</div>
+				<ul class="bot-point" id="activity-bot-point">
+					<li class="active"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<p class="activity-more"><a href="javascript:;" title="查看更多+">查看更多+</a></p>
+    	</div>
+    </div>
+    <div class="content3">
+    	<div class="layout">
+    		<div class="subtitle">
+    			<span class="line-l"></span>
+    			<i class="spr i-course"></i>
+    			<em>课程介绍<strong>course</strong></em>
+    			<span class="line-r"></span>
+    		</div>
+    		<div class="course-list">
+	            <a href="javascript:alert('敬请期待')" class="course-left"><img src="http://via.placeholder.com/516x818" alt=""><p><span>专业教练课程</span><i class="spr"></i></p></a>
+	            <div class="course-right">
+	                <a href="javascript:alert('敬请期待')" class="course-top"><img src="http://via.placeholder.com/766x426" alt=""><p><span>短期集训</span><i class="spr"></i></p></a>
+	                <div class="course-bottom">
+	                    <a href="javascript:alert('敬请期待')" class="course-bottom-left"><img src="http://via.placeholder.com/376x382" alt=""><p><span>海外大师Workshop</span><i class="spr"></i></p></a>
+	                    <a href="javascript:alert('敬请期待')" class="course-bottom-right"><img src="http://via.placeholder.com/386x382" alt=""><p><span>常规课程</span><i class="spr"></i></p></a>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="course-table"><img src="images/course-table.jpg" height="1000" width="1300" alt=""></div>
+    	</div>
+    </div>
+    <div class="content4">
+    	<div class="layout">
+    		<div class="subtitle">
+    			<span class="line-l"></span>
+    			<i class="spr i-tescher"></i>
+    			<em>老师介绍<strong>tescher</strong></em>
+    			<span class="line-r"></span>
+    		</div>
+    		<ul class="teacher-list">
+    			<li>
+    				<a href="javascript:;" class="teacher-pic"><img src="http://via.placeholder.com/290x290" alt=""></a>
+    			</li>
+    			<li>
+                    <a href="javascript:;" class="teacher-pic"><img src="http://via.placeholder.com/290x290" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="teacher-pic"><img src="http://via.placeholder.com/290x290" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="teacher-pic"><img src="http://via.placeholder.com/290x290" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="teacher-pic"><img src="http://via.placeholder.com/290x290" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="teacher-pic"><img src="http://via.placeholder.com/290x290" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="teacher-pic"><img src="http://via.placeholder.com/290x290" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="teacher-pic"><img src="http://via.placeholder.com/290x290" alt=""></a>
+                </li>
+    		</ul>
+            <p class="activity-more"><a href="javascript:;" title="查看更多+">查看更多+</a></p>
+    	</div>
+    </div>
+    <div class="content5">
+    	<div class="layout">
+    		<div class="faq fl">
+    			<div class="title">
+    				<p class="title-left">
+    					<i class="spr i-faq"></i>
+    					<span>常见问题</span>
+    					<em>FAQ</em>
+    				</p>
+    				<a href="javascript:;" class="spr btn-more" title="查看更多">查看更多</a>
+    			</div>
+    			<ul class="problem-list">
+		            <li>
+		                <a href="javascript:alert('敬请期待')" class="problem-pic"><img src="http://via.placeholder.com/186x124" alt=""></a>
+		                <p class="problem-question"><i class="spr i-qaq">Q</i>没有基础可以学这个舞蹈吗？没有基础可以学这个舞蹈吗？没有基础可以学这个舞蹈吗？没有基础可以学这个舞蹈吗？没有基础可以学这个舞蹈吗？</p>
+		                <p class="problem-answer"><i class="spr i-qaa">A</i>当然可以，结合国际舞蹈教学标准形成了全方位快速教学，让学员从零基础一步步变身舞蹈高手和职业舞蹈老师。当然可以，结合国际舞蹈教学标准形成了全方位快速教学，让学员从零基础一步步变身舞蹈高手和职业舞蹈老师。当然可以，结合国际舞蹈教学标准形成了全方位快速教学，让学员从零基础一步步变身舞蹈高手和职业舞蹈老师。当然可以，结合国际舞蹈教学标准形成了全方位快速教学，让学员从零基础一步步变身舞蹈高手和职业舞蹈老师。</p>
+		            </li>
+		            <li>
+		                <a href="javascript:alert('敬请期待')" class="problem-pic"><img src="http://via.placeholder.com/186x124" alt=""></a>
+		                <p class="problem-question"><i class="spr i-qaq">Q</i>没有基础可以学这个舞蹈吗？</p>
+		                <p class="problem-answer"><i class="spr i-qaa">A</i>当然可以，结合国际舞蹈教学标准形成了全方位快速教学，让学员从零基础一步步变身舞蹈高手和职业舞蹈老师。</p>
+		            </li>
+		        </ul>
+    		</div>
+    		<div class="hotclass fr">
+    			<div class="title">
+    				<p class="title-left">
+    					<i class="spr i-hotclass"></i>
+    					<span>舞蹈前线</span>
+    					<em>hot class</em>
+    				</p>
+    				<a href="javascript:;" class="spr btn-more" title="查看更多">查看更多</a>
+    			</div>
+    			<div class="dynamic-top">
+    				<a href="javascript:;" class="dynamic-top-pic"><img src="http://via.placeholder.com/186x124" height="124" width="186" alt=""></a>
+    				<h3 class="dynamic-top-title"><a href="javascript:;">什么时间段适合练习瑜伽？都有什么效果？</a></h3>
+    				<p class="dynamic-top-txt">清晨起床净齿净面后,做一场晨瑜伽,感恩太阳给我们带来光明,洁净一整夜积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,迎接新的一天。(适合练习时间15至30分钟,时间过长则会导致身体过于疲惫)阳光明媚的上午,做一场瑜伽,可以清晨起床净齿净面后,做一场晨瑜伽,感恩太阳给我们带来光明,洁净一整夜积累的毒素和晦暗,净化心神,使身体慢慢充沛活力,迎接新的一天。(适合练习时间15至30分钟,时间过长则会导致身体过于疲惫)阳光明媚的上午,做一场瑜伽,可以</p>
+    			</div>
+    			<ul class="dynamic-list">
+    				<li>
+    					<i>*</i>
+    					<a href="javascript:;">德国伍伯塔尔师生代表团来我校交流访问</a>
+    				</li>
+    				<li>
+    					<i>*</i>
+    					<a href="javascript:;">德国伍伯塔尔师生代表团来我校交流访问德国伍伯塔尔师生代表团来我校交流访问德国伍伯塔尔师生代表团来我校交流访问德国伍伯塔尔师生代表团来我校交流访问</a>
+    				</li>
+    				<li>
+    					<i>*</i>
+    					<a href="javascript:;">德国伍伯塔尔师生代表团来我校交流访问</a>
+    				</li>
+    				<li>
+    					<i>*</i>
+    					<a href="javascript:;">德国伍伯塔尔师生代表团来我校交流访问</a>
+    				</li>
+    				<li>
+    					<i>*</i>
+    					<a href="javascript:;">德国伍伯塔尔师生代表团来我校交流访问</a>
+    				</li>
+    				<li>
+    					<i>*</i>
+    					<a href="javascript:;">德国伍伯塔尔师生代表团来我校交流访问</a>
+    				</li>
+    			</ul>
+    		</div>
+    	</div>
+    </div>
+    <!-- content E -->
+    <!--#include file="inc/footer.html"-->
+</div>
+<div class="videopop" id="videopop">
+    <a href="javascript:showDialog.hide();" class="close">X</a>
+    <div class="vidplay">
+        <video width="800" height="450" id="vidplay"></video>
+    </div>
+</div>
+<script src="http://ossweb-img.qq.com/images/js/jquery/jquery-1.9.1.min.js"></script>
+<script src="//ossweb-img.qq.com/images/js/comm/showDialog.min.js"></script>
+<script>
+// 弹框
+function showDia(id) {
+    showDialog.show({
+        id: id, //需要弹出的id，如果是弹出页面上的div，则该选项为必选
+        bgcolor: "#000", //弹出“遮罩”的颜色，格式为"#FF6600"，可选，默认为"#fff"
+        opacity: 80 //弹出“遮罩”的透明度，格式为｛10-100｝，可选
+    });
+}
+var imgSrc = "images/";
+var _vidplay = document.getElementById('vidplay');
+$('body').on('click','.btn_playpop',function(){
+    showDia('videopop');
+    var _vid = $(this).attr('data-vidSrc');
+    _vid = imgSrc+_vid;
+    _vidplay.src = _vid;
+    _vidplay.play();
+}).on('click','.videopop .close',function(){
+    showDialog.hide();
+    _vidplay.pause();
+})
+	!function(window) {
+		window.picLoop = function(picList,bot,bool) {
+			return new picLoop.prototype.init(picList,bot,bool);
+		};
+
+		picLoop.prototype = {
+
+			init : function(picList,bot,bool) {
+				this.picList = $('#' + picList);
+				this.picListLi = this.picList.find('li');
+				this.wid = this.picListLi.innerWidth() + parseFloat(this.picListLi.css('margin-right'));
+				this.len = this.picListLi.length;
+				this.picList.css({
+					width : this.wid * this.len
+				});
+				this.loop = bool;
+				this.num = 0;
+
+				this.timer = null;
+
+				var that = this;
+				that.botPointLi =  bot;
+
+				if (this.botPointLi) {
+					this.botPointLi = $('#' + bot + ' > li');
+					this.botPointLi.each(function(index) {
+						$(this).on('click',function() {
+							that.num = index;
+							that.play(that.num);
+							$(this).addClass('active').siblings().removeClass('active');
+						});
+					});
+				}
+			},
+
+			next : function() {
+				this.num = this.num < this.len - 1 ? ++this.num : this.loop ? 0 : this.len - 1;
+				this.play(this.num);
+			},
+
+			prev : function() {
+				this.num = this.num > 0 ? --this.num : this.loop ? this.len - 1 : 0;
+				this.play(this.num);
+			},
+
+			play : function(n) {
+				this.picList.animate({
+					left : n * - this.wid
+				});
+
+				if( this.botPointLi ) {
+					this.botPointLi.eq(n).addClass('active').siblings().removeClass('active');
+				}
+			}
+		}
+
+		picLoop.prototype.init.prototype = picLoop.prototype;
+
+	}(window);
+	var head_slide = new picLoop('head-list','head-bot-point',true);
+	var timer = setInterval('head_slide.next()',5000); // 自动播放
+
+	var activity_slide = new picLoop('activity-list','activity-bot-point',true);
+</script>
+</body>
+</html>
